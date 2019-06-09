@@ -6,6 +6,7 @@ JBOSS_HOME=/opt/datagrid
 ARTIFACTS_DIR=/tmp/artifacts
 # Add patches to the array below and they will be applied in order
 PATCHES=(
+  jboss-datagrid-7.3.2.ER1-server-patch.zip
 )
 
 # Usage: apply_patches <patches array> <artifacts dir>

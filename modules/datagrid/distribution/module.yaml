@@ -6,4 +6,4 @@ description: Red Hat Data Grid 7.3 distribution module
 execute:
   - script: install.sh
   # Uncomment the line below to apply patches
-  #- script: install_patches.sh
+  - script: install_patches.sh
